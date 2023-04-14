@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Blog Models </Title>
+		<Description>Blog Data Models For STERP Development</Description>
+		<PackageProjectUrl>https://github.com/drysdale-chivhanga/sterp-blog-model</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/drysdale-chivhanga/sterp-blog-model</RepositoryUrl>
+		<PackageTags>Blog Data Models, Sterp</PackageTags>
+		<PackageReleaseNotes>Added Blog, Category, Comment and Picture Models </PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Drysdale Chivhanga</Authors>
+		<Company>STERP</Company>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Sterp.General.Model" Version="1.1.2" />
+	</ItemGroup>
+
+</Project>
