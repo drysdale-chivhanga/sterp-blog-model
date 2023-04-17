@@ -19,3 +19,34 @@ public class DtoCategory : DefaultRaw
     /// </summary>
     public string Description { get; set; }
 }
+
+/// <summary>
+/// Category.View.Model
+/// </summary>
+public class CategoryVm
+{
+    /// <summary>
+    /// Category.ID
+    /// </summary>
+    public string Id { get; set; }
+
+    /// <summary>
+    /// Category.Name
+    /// </summary>
+    public string Name { get; set; }
+
+    /// <summary>
+    /// Category.Description
+    /// </summary>
+    public string Description { get; set; }
+
+    /// <summary>
+    /// Category.CreatedBy
+    /// </summary>
+    public string CreatedBy { get; set; }
+
+    /// <summary>
+    /// Is.Active
+    /// </summary>
+    public ActiveStatus IsActive { get; set; }
+}
