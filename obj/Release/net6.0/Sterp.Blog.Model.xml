@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sterp.Blog.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Sterp.Blog.Model.DtoBlog">
+            <summary>
+            BlogInformation.Data.Transfer.Object
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.Name">
+            <summary>
+            Blog.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.Description">
+            <summary>
+            Blog.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.CategoryId">
+            <summary>
+            Blog.Category.Id
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.DtoCategory">
+            <summary>
+            BlogCategory.Data.Transfer.Object
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoCategory.Name">
+            <summary>
+            Category.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoCategory.Description">
+            <summary>
+            Category.Description
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CategoryVm">
+            <summary>
+            Category.View.Model
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.Id">
+            <summary>
+            Category.ID
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.Name">
+            <summary>
+            Category.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.Description">
+            <summary>
+            Category.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.CreatedBy">
+            <summary>
+            Category.CreatedBy
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.IsActive">
+            <summary>
+            Is.Active
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.DtoComment">
+            <summary>
+            BlogComment.Data.Transfer.Object
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoComment.Description">
+            <summary>
+            Comment.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoComment.BlogId">
+            <summary>
+            Blog.Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoComment.ParentId">
+            <summary>
+            Blog.Parent.Comment.Id
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.DtoPicture">
+            <summary>
+            BlogPicture.Data.Transfer.Object
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoPicture.Name">
+            <summary>
+            Blog.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoPicture.Url">
+            <summary>
+            Blog.Url
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoPicture.BlogId">
+            <summary>
+            Blog.Id
+            </summary>
+        </member>
+    </members>
+</doc>

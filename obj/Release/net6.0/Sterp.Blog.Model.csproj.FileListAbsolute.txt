@@ -1,0 +1,14 @@
+K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.deps.json
+K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.dll
+K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.pdb
+K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.xml
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.csproj.AssemblyReference.cache
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.GeneratedMSBuildEditorConfig.editorconfig
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.AssemblyInfoInputs.cache
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.AssemblyInfo.cs
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.csproj.CoreCompileInputs.cache
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.dll
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\refint\Sterp.Blog.Model.dll
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.xml
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\Sterp.Blog.Model.pdb
+K:\dhura\Sterp.Blog.Model\obj\Release\net6.0\ref\Sterp.Blog.Model.dll
