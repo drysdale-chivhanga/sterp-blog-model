@@ -145,7 +145,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Sterp.General.Model/1.1.6": {
+      "Sterp.General.Model/1.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -493,10 +493,10 @@
         "runtime.json"
       ]
     },
-    "Sterp.General.Model/1.1.6": {
-      "sha512": "29zEzIBjDSEUHST0AHCn7ekd1Z+lqITGoXY6Ul/DBueqPmu3tdgRbWxRnF3SKTxzTSKHm3agyfOsJ5RC4NIoDw==",
+    "Sterp.General.Model/1.2.0": {
+      "sha512": "xQdihlVL3JaJVCZMUxFtT6D3BkG00Lh8/sCCIsXZhCL56gyPdAglIH/9BrDAB2eL7rqX8ldHr9tBJnNxv9lBtw==",
       "type": "package",
-      "path": "sterp.general.model/1.1.6",
+      "path": "sterp.general.model/1.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -504,7 +504,7 @@
         "icon.png",
         "lib/net6.0/Sterp.General.Model.dll",
         "lib/net6.0/Sterp.General.Model.xml",
-        "sterp.general.model.1.1.6.nupkg.sha512",
+        "sterp.general.model.1.2.0.nupkg.sha512",
         "sterp.general.model.nuspec"
       ]
     },
@@ -851,7 +851,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Sterp.General.Model >= 1.1.6"
+      "Sterp.General.Model >= 1.2.0"
     ]
   },
   "packageFolders": {
@@ -859,7 +859,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.0.9",
     "restore": {
       "projectUniqueName": "K:\\dhura\\Sterp.Blog.Model\\Sterp.Blog.Model.csproj",
       "projectName": "Sterp.Blog.Model",
@@ -901,7 +901,7 @@
         "dependencies": {
           "Sterp.General.Model": {
             "target": "Package",
-            "version": "[1.1.6, )"
+            "version": "[1.2.0, )"
           }
         },
         "imports": [

@@ -23,13 +23,8 @@ public class DtoCategory : DefaultRaw
 /// <summary>
 /// Category.View.Model
 /// </summary>
-public class CategoryVm
+public class CategoryVm : DefaultVm
 {
-    /// <summary>
-    /// Category.ID
-    /// </summary>
-    public string Id { get; set; }
-
     /// <summary>
     /// Category.Name
     /// </summary>
@@ -39,14 +34,4 @@ public class CategoryVm
     /// Category.Description
     /// </summary>
     public string Description { get; set; }
-
-    /// <summary>
-    /// Category.CreatedBy
-    /// </summary>
-    public string CreatedBy { get; set; }
-
-    /// <summary>
-    /// Is.Active
-    /// </summary>
-    public ActiveStatus IsActive { get; set; }
 }

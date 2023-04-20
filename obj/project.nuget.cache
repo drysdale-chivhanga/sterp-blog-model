@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YIP4yeWRVvBFxt+lgrWoi35QCid6IE2EPr7XvJ2g6fmG3FmvwsX1Vh6gpW8VAwPv0KRqTuYWW9Gl4DyJKs7Ypw==",
+  "dgSpecHash": "P/2+phTtQcnp7tyQts6ojGPnpXdsvis9zlaUGhDp8NrOnAIOS+jHeOl7TJKFxKZYUV8VFxWgxScamE02ztqfKg==",
   "success": true,
   "projectFilePath": "K:\\dhura\\Sterp.Blog.Model\\Sterp.Blog.Model.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "C:\\Users\\chivr\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.27.0\\microsoft.identitymodel.tokens.6.27.0.nupkg.sha512",
     "C:\\Users\\chivr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\chivr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\chivr\\.nuget\\packages\\sterp.general.model\\1.1.6\\sterp.general.model.1.1.6.nupkg.sha512",
+    "C:\\Users\\chivr\\.nuget\\packages\\sterp.general.model\\1.2.0\\sterp.general.model.1.2.0.nupkg.sha512",
     "C:\\Users\\chivr\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.27.0\\system.identitymodel.tokens.jwt.6.27.0.nupkg.sha512",
     "C:\\Users\\chivr\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\chivr\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",

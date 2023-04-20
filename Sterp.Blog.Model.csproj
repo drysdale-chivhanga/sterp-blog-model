@@ -4,7 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.0.5</Version>
+		<Version>1.0.9</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Blog Models </Title>
@@ -13,7 +13,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/drysdale-chivhanga/sterp-blog-model</RepositoryUrl>
 		<PackageTags>Blog Data Models, Sterp</PackageTags>
-		<PackageReleaseNotes>Changed RequestCategoryModel to CategoryVm</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated CategoryVm Inheriting DefaultVm</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Authors>Drysdale Chivhanga</Authors>
 		<Company>STERP</Company>
@@ -24,8 +24,14 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
+	  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Sterp.General.Model" Version="1.1.6" />
+	  <PackageReference Include="Sterp.General.Model" Version="1.2.0" />
 	</ItemGroup>
 
 </Project>

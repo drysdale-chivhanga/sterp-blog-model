@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Sterp.Blog.Model/1.0.5": {
+      "Sterp.Blog.Model/1.0.9": {
         "dependencies": {
-          "Sterp.General.Model": "1.1.6"
+          "Sterp.General.Model": "1.2.0"
         },
         "runtime": {
           "Sterp.Blog.Model.dll": {}
@@ -98,15 +98,15 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Sterp.General.Model/1.1.6": {
+      "Sterp.General.Model/1.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "System.IdentityModel.Tokens.Jwt": "6.27.0"
         },
         "runtime": {
           "lib/net6.0/Sterp.General.Model.dll": {
-            "assemblyVersion": "1.1.6.0",
-            "fileVersion": "1.1.6.0"
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           }
         }
       },
@@ -143,7 +143,7 @@
     }
   },
   "libraries": {
-    "Sterp.Blog.Model/1.0.5": {
+    "Sterp.Blog.Model/1.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -218,12 +218,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Sterp.General.Model/1.1.6": {
+    "Sterp.General.Model/1.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-29zEzIBjDSEUHST0AHCn7ekd1Z+lqITGoXY6Ul/DBueqPmu3tdgRbWxRnF3SKTxzTSKHm3agyfOsJ5RC4NIoDw==",
-      "path": "sterp.general.model/1.1.6",
-      "hashPath": "sterp.general.model.1.1.6.nupkg.sha512"
+      "sha512": "sha512-xQdihlVL3JaJVCZMUxFtT6D3BkG00Lh8/sCCIsXZhCL56gyPdAglIH/9BrDAB2eL7rqX8ldHr9tBJnNxv9lBtw==",
+      "path": "sterp.general.model/1.2.0",
+      "hashPath": "sterp.general.model.1.2.0.nupkg.sha512"
     },
     "System.IdentityModel.Tokens.Jwt/6.27.0": {
       "type": "package",
