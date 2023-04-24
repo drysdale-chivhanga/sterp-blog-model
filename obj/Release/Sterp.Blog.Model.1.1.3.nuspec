@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sterp.Blog.Model</id>
+    <version>1.1.3</version>
+    <title>Blog Models</title>
+    <authors>Drysdale Chivhanga</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/drysdale-chivhanga/sterp-blog-model</projectUrl>
+    <description>Blog Data Models For STERP Development</description>
+    <releaseNotes>Added ReadMe</releaseNotes>
+    <tags>Corrected PicturePictureComment to PictureComent Model</tags>
+    <repository url="https://github.com/drysdale-chivhanga/sterp-blog-model" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Sterp.General.Model" version="1.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.dll" target="lib\net6.0\Sterp.Blog.Model.dll" />
+    <file src="K:\dhura\Sterp.Blog.Model\bin\Release\net6.0\Sterp.Blog.Model.xml" target="lib\net6.0\Sterp.Blog.Model.xml" />
+    <file src="K:\dhura\Sterp.Blog.Model\README.md" target="\README.md" />
+    <file src="K:\dhura\icon.png" target="\icon.png" />
+  </files>
+</package>

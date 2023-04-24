@@ -24,3 +24,24 @@ public class DtoBlog : DefaultRaw
     /// </summary>
     public long CategoryId { get; set; }
 }
+
+/// <summary>
+/// BlogInformation.Data.ViewModel
+/// </summary>
+public class BlogVm : DefaultVm
+{
+    /// <summary>
+    /// Blog.Name
+    /// </summary>
+    public string Name { get; set; }
+
+    /// <summary>
+    /// Blog.Description
+    /// </summary>
+    public string Description { get; set; }
+
+    /// <summary>
+    /// Blog.Category.Id
+    /// </summary>
+    public string CategoryId { get; set; }
+}

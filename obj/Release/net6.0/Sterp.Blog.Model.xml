@@ -24,6 +24,26 @@
             Blog.Category.Id
             </summary>
         </member>
+        <member name="T:Sterp.Blog.Model.BlogVm">
+            <summary>
+            BlogInformation.Data.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.Name">
+            <summary>
+            Blog.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.Description">
+            <summary>
+            Blog.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.CategoryId">
+            <summary>
+            Blog.Category.Id
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.DtoCategory">
             <summary>
             BlogCategory.Data.Transfer.Object
@@ -69,9 +89,19 @@
             Blog.Id
             </summary>
         </member>
-        <member name="P:Sterp.Blog.Model.DtoComment.ParentId">
+        <member name="T:Sterp.Blog.Model.CommentVm">
             <summary>
-            Blog.Parent.Comment.Id
+            BlogComment.Data.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CommentVm.Description">
+            <summary>
+            Comment.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CommentVm.BlogId">
+            <summary>
+            Blog.Id
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.DtoPicture">
@@ -92,6 +122,56 @@
         <member name="P:Sterp.Blog.Model.DtoPicture.BlogId">
             <summary>
             Blog.Id
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.PictureVm">
+            <summary>
+            BlogPicture.Data.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureVm.Name">
+            <summary>
+            Blog.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureVm.Url">
+            <summary>
+            Blog.Url
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureVm.BlogId">
+            <summary>
+            Blog.Id
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.DtoPictureComment">
+            <summary>
+            BlogPictureComment.Data.Transfer.Object
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoPictureComment.Description">
+            <summary>
+            PictureComment.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoPictureComment.PictureId">
+            <summary>
+            Picture.Id
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.PictureCommentVm">
+            <summary>
+            BlogPictureComment.Data.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureCommentVm.Description">
+            <summary>
+            PictureComment.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureCommentVm.PictureId">
+            <summary>
+            Picture.Id
             </summary>
         </member>
     </members>

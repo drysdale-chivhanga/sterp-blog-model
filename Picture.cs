@@ -24,3 +24,24 @@ public class DtoPicture : DefaultRaw
     /// </summary>
     public long BlogId { get; set; }
 }
+
+/// <summary>
+/// BlogPicture.Data.ViewModel
+/// </summary>
+public class PictureVm : DefaultVm
+{
+    /// <summary>
+    /// Blog.Name
+    /// </summary>
+    public string Name { get; set; }
+
+    /// <summary>
+    /// Blog.Url
+    /// </summary>
+    public string Url { get; set; }
+
+    /// <summary>
+    /// Blog.Id
+    /// </summary>
+    public string BlogId { get; set; }
+}

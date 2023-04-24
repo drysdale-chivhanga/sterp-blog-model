@@ -3,37 +3,37 @@
 namespace Sterp.Blog.Model;
 
 /// <summary>
-/// BlogComment.Data.Transfer.Object
+/// BlogPictureComment.Data.Transfer.Object
 /// </summary>
-public class DtoComment : DefaultRaw
+public class DtoPictureComment : DefaultRaw
 {
 
     /// <summary>
-    /// Comment.Description
+    /// PictureComment.Description
     /// </summary>
     public string Description { get; set; }
 
     /// <summary>
-    /// Blog.Id
+    /// Picture.Id
     /// </summary>
-    public long BlogId { get; set; }
+    public long PictureId { get; set; }
 
 }
 
 
 /// <summary>
-/// BlogComment.Data.ViewModel
+/// BlogPictureComment.Data.ViewModel
 /// </summary>
-public class CommentVm : DefaultVm
+public class PictureCommentVm : DefaultVm
 {
 
     /// <summary>
-    /// Comment.Description
+    /// PictureComment.Description
     /// </summary>
     public string Description { get; set; }
 
     /// <summary>
-    /// Blog.Id
+    /// Picture.Id
     /// </summary>
-    public string BlogId { get; set; }
+    public string PictureId { get; set; }
 }
