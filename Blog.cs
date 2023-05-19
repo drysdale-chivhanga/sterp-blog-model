@@ -15,6 +15,11 @@ public class DtoBlog : DefaultRaw
     public string Name { get; set; }
 
     /// <summary>
+    /// PictureUrl
+    /// </summary>
+    public string PictureUrl { get; set; }
+
+    /// <summary>
     /// Blog.Description
     /// </summary>
     public string Description { get; set; }
@@ -23,6 +28,16 @@ public class DtoBlog : DefaultRaw
     /// Blog.Category.Id
     /// </summary>
     public long CategoryId { get; set; }
+
+    /// <summary>
+    /// Blog.CanComment
+    /// </summary>
+    public bool CanComment { get; set; }
+
+    /// <summary>
+    /// Blog.IsFeaturing
+    /// </summary>
+    public bool IsFeaturing { get; set; } = false;
 }
 
 /// <summary>
@@ -44,4 +59,75 @@ public class BlogVm : DefaultVm
     /// Blog.Category.Id
     /// </summary>
     public string CategoryId { get; set; }
+
+    /// <summary>
+    /// Blog.CanComment
+    /// </summary>
+    public bool CanComment { get; set; }
+
+    /// <summary>
+    /// Blog.IsFeaturing
+    /// </summary>
+    public bool IsFeaturing { get; set; } = false;
+}
+
+/// <summary>
+/// CreateBlog.DataTransferObject
+/// </summary>
+public class CreateBlogDto
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public string Name { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.Description
+    /// </summary>
+    public string Description { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.CategoryId
+    /// </summary>
+    public string CategoryId { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.PictureUrl
+    /// </summary>
+    public string BlogUrl { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.Logged.UserdId
+    /// </summary>
+    public string UserdId { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.Logged.InstitutionId
+    /// </summary>
+    public string InstitutionId { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.Logged.RoleId
+    /// </summary>
+    public string RoleId { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Blog.CanComment
+    /// </summary>
+    public bool CanComment { get; set; }
+
+    /// <summary>
+    /// Blog.IsFeaturing
+    /// </summary>
+    public bool IsFeaturing { get; set; } = false;
+}
+
+
+/// <summary>
+/// UpdateBlog.DataTransferObject
+/// </summary>
+public class UpdateBlogDto : CreateBlogDto
+{
+    /// <summary>
+    /// Blog.ID
+    /// </summary>
+    public string Id { get; set; } = string.Empty;
+    /// <summary>
+    /// Blog.ActiveStatus
+    /// </summary>
+    public int IsActive { get; set; }
 }

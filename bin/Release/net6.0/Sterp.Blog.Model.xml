@@ -14,6 +14,11 @@
             Blog.Name
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.PictureUrl">
+            <summary>
+            PictureUrl
+            </summary>
+        </member>
         <member name="P:Sterp.Blog.Model.DtoBlog.Description">
             <summary>
             Blog.Description
@@ -22,6 +27,16 @@
         <member name="P:Sterp.Blog.Model.DtoBlog.CategoryId">
             <summary>
             Blog.Category.Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.CanComment">
+            <summary>
+            Blog.CanComment
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoBlog.IsFeaturing">
+            <summary>
+            Blog.IsFeaturing
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.BlogVm">
@@ -44,6 +59,81 @@
             Blog.Category.Id
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.CanComment">
+            <summary>
+            Blog.CanComment
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.IsFeaturing">
+            <summary>
+            Blog.IsFeaturing
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CreateBlogDto">
+            <summary>
+            CreateBlog.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.Description">
+            <summary>
+            Blog.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.CategoryId">
+            <summary>
+            Blog.CategoryId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.BlogUrl">
+            <summary>
+            Blog.PictureUrl
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.UserdId">
+            <summary>
+            Blog.Logged.UserdId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.InstitutionId">
+            <summary>
+            Blog.Logged.InstitutionId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.RoleId">
+            <summary>
+            Blog.Logged.RoleId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.CanComment">
+            <summary>
+            Blog.CanComment
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateBlogDto.IsFeaturing">
+            <summary>
+            Blog.IsFeaturing
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.UpdateBlogDto">
+            <summary>
+            UpdateBlog.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateBlogDto.Id">
+            <summary>
+            Blog.ID
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateBlogDto.IsActive">
+            <summary>
+            Blog.ActiveStatus
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.DtoCategory">
             <summary>
             BlogCategory.Data.Transfer.Object
@@ -59,6 +149,21 @@
             Category.Description
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.DtoCategory.FileUrl">
+            <summary>
+            Category.FileUrl
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoCategory.IsBlog">
+            <summary>
+            Category.IsBlog
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.DtoCategory.IsFeaturing">
+            <summary>
+            Category.IsFeaturing
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.CategoryVm">
             <summary>
             Category.View.Model
@@ -72,6 +177,81 @@
         <member name="P:Sterp.Blog.Model.CategoryVm.Description">
             <summary>
             Category.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.FileUrl">
+            <summary>
+            Category.FileUrl
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.IsBlog">
+            <summary>
+            Category.IsBlog
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.IsFeaturing">
+            <summary>
+            Category.IsFeaturing
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CreateCategoryDto">
+            <summary>
+            CreateCategory.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.Name">
+            <summary>
+            Category.Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.FileUrl">
+            <summary>
+            Category.FileUrl
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.Description">
+            <summary>
+            Category.Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.UserdId">
+            <summary>
+            Category.UserdId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.InstitutionId">
+            <summary>
+            Category.InstitutionId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.RoleId">
+            <summary>
+            Category.RoleId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.IsBlog">
+            <summary>
+            Category.IsBlog
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCategoryDto.IsFeaturing">
+            <summary>
+            Category.IsFeaturing
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.UpdateCategoryDto">
+            <summary>
+             UpdateCategory.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateCategoryDto.Id">
+            <summary>
+            Category.Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateCategoryDto.IsActive">
+            <summary>
+            Category.IsActive
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.DtoComment">
