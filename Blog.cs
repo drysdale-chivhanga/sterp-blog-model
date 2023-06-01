@@ -32,12 +32,12 @@ public class DtoBlog : DefaultRaw
     /// <summary>
     /// Blog.CanComment
     /// </summary>
-    public bool CanComment { get; set; }
+    public int CanComment { get; set; }
 
     /// <summary>
     /// Blog.IsFeaturing
     /// </summary>
-    public bool IsFeaturing { get; set; } = false;
+    public int IsFeaturing { get; set; }
 }
 
 /// <summary>
@@ -63,12 +63,16 @@ public class BlogVm : DefaultVm
     /// <summary>
     /// Blog.CanComment
     /// </summary>
-    public bool CanComment { get; set; }
+    public int CanComment { get; set; }
+    /// <summary>
+    /// PictureUrl
+    /// </summary>
+    public string PictureUrl { get; set; }
 
     /// <summary>
     /// Blog.IsFeaturing
     /// </summary>
-    public bool IsFeaturing { get; set; } = false;
+    public int IsFeaturing { get; set; }
 }
 
 /// <summary>
@@ -108,12 +112,12 @@ public class CreateBlogDto
     /// <summary>
     /// Blog.CanComment
     /// </summary>
-    public bool CanComment { get; set; }
+    public int CanComment { get; set; }
 
     /// <summary>
     /// Blog.IsFeaturing
     /// </summary>
-    public bool IsFeaturing { get; set; } = false;
+    public int IsFeaturing { get; set; }
 }
 
 
@@ -130,4 +134,27 @@ public class UpdateBlogDto : CreateBlogDto
     /// Blog.ActiveStatus
     /// </summary>
     public int IsActive { get; set; }
+}
+
+/// <summary>
+/// BlogWithComments.ViewModel
+/// </summary>
+public class BlogWithCommentsVm
+{
+    /// <summary>
+    /// Category
+    /// </summary>
+    public CategoryVm Category { get; set; }
+    /// <summary>
+    /// Blog
+    /// </summary>
+    public BlogVm Blog { get; set; }
+    /// <summary>
+    /// Comments
+    /// </summary>
+    public List<CommentVm> Comments { get; set; }
+    /// <summary>
+    /// Pictures
+    /// </summary>
+    public List<PictureVm> Pictures { get; set; }
 }

@@ -57,12 +57,12 @@ public class CategoryVm : DefaultVm
     /// <summary>
     /// Category.IsBlog
     /// </summary>
-    public bool IsBlog { get; set; } = true;
+    public int IsBlog { get; set; }
 
     /// <summary>
     /// Category.IsFeaturing
     /// </summary>
-    public bool IsFeaturing { get; set; } = false;
+    public int IsFeaturing { get; set; }
 }
 
 /// <summary>
@@ -103,12 +103,12 @@ public class CreateCategoryDto
     /// <summary>
     /// Category.IsBlog
     /// </summary>
-    public bool IsBlog { get; set; } = true;
+    public int IsBlog { get; set; }
 
     /// <summary>
     /// Category.IsFeaturing
     /// </summary>
-    public bool IsFeaturing { get; set; } = false;
+    public int IsFeaturing { get; set; }
 }
 
 

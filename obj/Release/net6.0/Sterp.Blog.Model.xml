@@ -64,6 +64,11 @@
             Blog.CanComment
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.PictureUrl">
+            <summary>
+            PictureUrl
+            </summary>
+        </member>
         <member name="P:Sterp.Blog.Model.BlogVm.IsFeaturing">
             <summary>
             Blog.IsFeaturing
@@ -132,6 +137,31 @@
         <member name="P:Sterp.Blog.Model.UpdateBlogDto.IsActive">
             <summary>
             Blog.ActiveStatus
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.BlogWithCommentsVm">
+            <summary>
+            BlogWithComments.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogWithCommentsVm.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogWithCommentsVm.Blog">
+            <summary>
+            Blog
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogWithCommentsVm.Comments">
+            <summary>
+            Comments
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.BlogWithCommentsVm.Pictures">
+            <summary>
+            Pictures
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.DtoCategory">
