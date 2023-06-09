@@ -36,7 +36,7 @@ public class PictureVm : DefaultVm
     public string Name { get; set; }
 
     /// <summary>
-    /// Blog.Url
+    /// Picture.Url
     /// </summary>
     public string Url { get; set; }
 
@@ -44,4 +44,56 @@ public class PictureVm : DefaultVm
     /// Blog.Id
     /// </summary>
     public string BlogId { get; set; }
+
+    /// <summary>
+    /// Picture.Age
+    /// </summary>
+    public string Age { get; set; }
+}
+
+/// <summary>
+/// CreatePicture.DataTransferObject
+/// </summary>
+public class CreatePictureDto
+{
+    /// <summary>
+    /// UserdId
+    /// </summary>
+    public string UserdId { get; set; } = string.Empty;
+    /// <summary>
+    /// InstitutionId
+    /// </summary>
+    public string InstitutionId { get; set; } = string.Empty;
+    /// <summary>
+    /// RoleId
+    /// </summary>
+    public string RoleId { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Url
+    /// </summary>
+    public string Url { get; set; } = string.Empty;
+    /// <summary>
+    /// Name
+    /// </summary>
+    public string Name { get; set; } = string.Empty;
+    /// <summary>
+    /// BlogId
+    /// </summary>
+    public string BlogId { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// UpdatePicture.DataTransferObject
+/// </summary>
+public class UpdatePictureDto : CreatePictureDto
+{
+    /// <summary>
+    /// Id
+    /// </summary>
+    public string Id { get; set; } = string.Empty;
+    /// <summary>
+    /// IsActive
+    /// </summary>
+    public int IsActive { get; set; }
 }

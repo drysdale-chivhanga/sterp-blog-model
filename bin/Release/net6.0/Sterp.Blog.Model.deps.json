@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Sterp.Blog.Model/1.4.1": {
+      "Sterp.Blog.Model/1.4.2": {
         "dependencies": {
           "Sterp.General.Model": "1.4.7"
         },
@@ -143,7 +143,7 @@
     }
   },
   "libraries": {
-    "Sterp.Blog.Model/1.4.1": {
+    "Sterp.Blog.Model/1.4.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -74,6 +74,11 @@
             Blog.IsFeaturing
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.BlogVm.Age">
+            <summary>
+            Blog.Age
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.CreateBlogDto">
             <summary>
             CreateBlog.DataTransferObject
@@ -314,6 +319,56 @@
             Blog.Id
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.CommentVm.Age">
+            <summary>
+            Comment.Age
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CreateCommentDto">
+            <summary>
+            CreateComment.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCommentDto.UserdId">
+            <summary>
+            UserdId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCommentDto.InstitutionId">
+            <summary>
+            InstitutionId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCommentDto.RoleId">
+            <summary>
+            RoleId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCommentDto.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreateCommentDto.BlogId">
+            <summary>
+            BlogId
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.UpdateCommentDto">
+            <summary>
+            UpdateComment.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateCommentDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdateCommentDto.IsActive">
+            <summary>
+            IsActive
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.DtoPicture">
             <summary>
             BlogPicture.Data.Transfer.Object
@@ -346,12 +401,67 @@
         </member>
         <member name="P:Sterp.Blog.Model.PictureVm.Url">
             <summary>
-            Blog.Url
+            Picture.Url
             </summary>
         </member>
         <member name="P:Sterp.Blog.Model.PictureVm.BlogId">
             <summary>
             Blog.Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.PictureVm.Age">
+            <summary>
+            Picture.Age
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CreatePictureDto">
+            <summary>
+            CreatePicture.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.UserdId">
+            <summary>
+            UserdId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.InstitutionId">
+            <summary>
+            InstitutionId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.RoleId">
+            <summary>
+            RoleId
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CreatePictureDto.BlogId">
+            <summary>
+            BlogId
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.UpdatePictureDto">
+            <summary>
+            UpdatePicture.DataTransferObject
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdatePictureDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.UpdatePictureDto.IsActive">
+            <summary>
+            IsActive
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.DtoPictureComment">

@@ -73,6 +73,11 @@ public class BlogVm : DefaultVm
     /// Blog.IsFeaturing
     /// </summary>
     public int IsFeaturing { get; set; }
+
+    /// <summary>
+    /// Blog.Age
+    /// </summary>
+    public string Age { get; set; }
 }
 
 /// <summary>
