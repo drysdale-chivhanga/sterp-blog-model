@@ -63,6 +63,11 @@ public class CategoryVm : DefaultVm
     /// Category.IsFeaturing
     /// </summary>
     public int IsFeaturing { get; set; }
+
+    /// <summary>
+    /// Category.Age
+    /// </summary>
+    public string Age { get; set; }
 }
 
 /// <summary>
@@ -126,4 +131,20 @@ public class UpdateCategoryDto : CreateCategoryDto
     /// Category.IsActive
     /// </summary>
     public int IsActive { get; set; }
+}
+
+/// <summary>
+/// CategoryWithBlogs.ViewModel
+/// </summary>
+public class CategoryWithBlogsVm
+{
+    /// <summary>
+    /// Category
+    /// </summary>
+    public CategoryVm Category { get; set; }
+    /// <summary>
+    /// Blogs
+    /// </summary>
+    public List<BlogVm> Blogs { get; set; }
+
 }

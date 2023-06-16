@@ -229,6 +229,11 @@
             Category.IsFeaturing
             </summary>
         </member>
+        <member name="P:Sterp.Blog.Model.CategoryVm.Age">
+            <summary>
+            Category.Age
+            </summary>
+        </member>
         <member name="T:Sterp.Blog.Model.CreateCategoryDto">
             <summary>
             CreateCategory.DataTransferObject
@@ -287,6 +292,21 @@
         <member name="P:Sterp.Blog.Model.UpdateCategoryDto.IsActive">
             <summary>
             Category.IsActive
+            </summary>
+        </member>
+        <member name="T:Sterp.Blog.Model.CategoryWithBlogsVm">
+            <summary>
+            CategoryWithBlogs.ViewModel
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryWithBlogsVm.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:Sterp.Blog.Model.CategoryWithBlogsVm.Blogs">
+            <summary>
+            Blogs
             </summary>
         </member>
         <member name="T:Sterp.Blog.Model.DtoComment">

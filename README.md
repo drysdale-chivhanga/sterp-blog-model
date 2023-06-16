@@ -1,5 +1,5 @@
 ﻿
-# STERP Blog.Data.Models
+# VoFtwE Blog.Data.Models
 
-Blog Data Models For STERP Development
+Blog Data Models For VoFtwE Development
 
